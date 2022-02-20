@@ -4,8 +4,8 @@
 
 
 export class HtmlResponse extends Response {
-    constructor(text: string, init?: ResponseInit) {
-        super(text, init);
+    constructor(html: string, init?: ResponseInit) {
+        super(html, init);
 
         this.headers.set("Content-Type", "text/html; charset=utf-8");
     }
