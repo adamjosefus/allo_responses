@@ -3,7 +3,7 @@
  */
 
 
-import { readableStreamFromReader } from "https://deno.land/std@0.126.0/streams/mod.ts";
+import { readableStreamFromReader } from "https://deno.land/std@0.128.0/streams/mod.ts";
 
 
 export class FileResponse extends Response {
